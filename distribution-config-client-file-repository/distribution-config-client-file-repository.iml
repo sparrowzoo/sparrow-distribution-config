@@ -5,14 +5,12 @@
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="sparrow-distribution-config-client" />
-    <orderEntry type="module" module-name="sparrow" />
+    <orderEntry type="module" module-name="distribution-config-client" />
+    <orderEntry type="library" name="Maven: com.sparrow:sparrow:1.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.34" level="project" />
     <orderEntry type="library" name="Maven: commons-pool:commons-pool:1.5.5" level="project" />
     <orderEntry type="library" name="Maven: org.apache.lucene:lucene-core:3.6.1" level="project" />
